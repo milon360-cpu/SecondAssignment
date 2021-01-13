@@ -1,0 +1,252 @@
+.Navbar
+{
+display: flex;
+justify-content: center;
+margin-top: 2%;
+
+
+
+}
+
+.Navbar a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 40px;
+}
+ 
+@media screen and (max-width:768px)
+{
+    .Navbar
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+         
+    }
+    .Navbar img
+    {
+        width: 70%;
+    }
+    .Navbar a
+    {
+        padding: 10px;
+    }
+    .Navbar a:hover
+    {
+        color: green;
+    }
+}
+/* End style for Navbar */
+.Banner
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LestBanner
+{
+    margin-left: 4%;
+   
+}
+.LestBanner h1
+{
+    font-size: 75px;
+}
+.Button
+{
+    margin-top: 2%;
+    background-color:rgb(166, 206, 55);
+    text-decoration: none;
+    border: 5px;
+    padding: 23px 40px;
+    border-radius: 18px;
+    color: white;
+    font-weight: bold;
+
+    
+}
+.Button img
+{
+    width: 40px;
+}
+.RightBanner img{
+    
+    width: 70%;
+}
+.RightBanner
+{
+    margin-left: 10%;
+   
+}
+@media screen and (max-width:768px)
+{
+    .Banner
+    {
+      flex-direction: column;
+    }
+}
+/* End Banner Style */
+.Jacket
+{
+    margin-top: 5%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Jackets
+{
+  height: 400px;
+  width: 380px;
+  box-shadow: 1px 1px 5px gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  
+}
+.Jackets img
+{
+    width: 70%;
+}
+.Jackets_space
+{
+    margin-right: 5%;
+}
+.details
+{
+    margin-top: 7%;
+    margin-right: 4%;
+}
+.Price
+{
+    font-size: 45px;
+    font-weight: bold;
+    color: indianred;
+    margin-right: 15%;
+   
+}
+@media screen and (max-width:768px)
+{
+    .Jacket
+    {
+        flex-direction: column;
+    }
+}
+/* End Product Style  */
+.Icon
+{
+    margin-top: 4%;
+    display: flex;
+    margin-bottom: 18%;
+    
+
+}
+.Icon img
+{
+    height: 120px;
+    width: 120px;
+}
+.Tamplate
+{ 
+    display: flex;
+    margin-top: 8%;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.Tamplate h1
+{
+    color: rgb(230, 200, 67);
+}
+.Tamplate h6
+{
+    color: rgb(26, 88, 67);
+    font-weight: bold;
+    font-size: 22px;
+}
+.dicription
+{
+   
+    margin-left: 2%;
+    
+}
+
+.LeftItem
+{
+   
+    margin-right: 10%;
+}
+.Trolly
+{
+
+}
+@media screen and (max-width:768px)
+{
+    .Tamplate
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .Tamplate>.Trolly img
+    {
+       height: 200px;
+       width: 350px;
+    }
+
+}
+/* End Tamplate style  */
+.ExtraContent
+{
+    margin-top: 5%;
+
+}
+.offer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.offer a
+{
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    box-shadow: 3px 3px 10px gray;
+    margin-left: 3%;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+.offer a:hover
+{
+    color: green;
+    background-color: white;
+}
+@media screen and (max-width:768px)
+{
+    .ExtraContent>.offer
+    {
+       flex-direction: column;
+
+    }
+    .ExtraContent>.offer img 
+    {
+        height: 200px;
+        width: 400px;
+    }
+}
+footer h6
+{ 
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+}
